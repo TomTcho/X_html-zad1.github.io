@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad1</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xbjwwbeq" method="post">
+
+        <label for="username">Imię</label>
+        <input type="text" name="username" id="username" required><br>
+
+        <label for="userlastname">Nazwisko</label>
+        <input type="text" name="userlastname" id="userlastname" required><br>
+
+        <label for="email">Adres e-mail</label>
+        <input type="email" name="email" id="email" placeholder="podaj adres mailowy"><br>
+
+        <label for="phone">telefon</label>
+        <input type="text" name="phone" id="phone"><br>
+
+        <select name="city">
+            <option value="Szczecin">Szczecin</option>
+            <option value="Koszalin">Koszalin</option> 
+            <option value="Woerden" selected>Woerden</option>
+        </select><br>
+
+        <label><input type="radio" name="sex" value="W">Kobieta </label><br>
+        <label> <input type="radio" name="sex" value="M">Mężczyzna </label><br>
+
+        <label><input type="checkbox" name="agreement">wyrazam zgode na przekazanie danych osobowych</label><br>
+
+        <textarea name="message" maxlength="20"></textarea> <br>
+
+        <input type="submit" value="wyślij formularz"><br>
+
+    </form>
+
+</body>
+</html>
